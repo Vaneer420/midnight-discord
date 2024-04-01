@@ -27,7 +27,7 @@
 	--text-0: white; /* text on colored elements */
 	--text-1: var(--text-2); /* other normally white text */
 	--text-2: hsl(220, 25%, 70%); /* headings and important text */
-	--text-3: hsl(220, 15%, 60%); /* normal text */
+	--text-3: hsl(200, 9%, 87%); /* normal text */
 	--text-4: hsl(220, 15%, 40%); /* icon buttons and channels */
 	--text-5: hsl(220, 15%, 25%); /* muted channels/chats and timestamps */
 
@@ -274,10 +274,6 @@ path[fill='var(--white-500)'] {
 }
 .checkbox_fcf2ad /* channel checkboxes */ {
 	border-color: var(--text-4) !important;
-}
-.newBadge__40645 /* fix forum new badge */ {
-	color: var(--accent-2);
-	line-height: 16px;
 }
 
 /* remove shadows */
@@ -956,7 +952,7 @@ html.theme-light,
 	--forum-post-extra-media-count-container-background: hsl(var(--primary-660-hsl) / 0.8);
 	--forum-post-tag-background: hsl(var(--primary-660-hsl) / 0.9);
 	--guild-notifications-bottom-sheet-pill-background: var(--primary-700);
-	--header-muted: var(--text-4);
+	--header-muted: red;
 	--header-primary: var(--text-2);
 	--header-secondary: var(--text-4);
 	--home-background: var(--bg-4);
@@ -1099,7 +1095,7 @@ html.theme-light,
 	--text-normal: var(--text-3);
 	--text-positive: var(--green-330);
 	--text-primary: red;
-	--text-secondary: var(--text-3);
+	--text-secondary: red;
 	--text-warning: var(--yellow-300);
 	--textbox-markdown-syntax: var(--primary-360);
 	--theme-locked-blur-fallback: hsl(var(--primary-700-hsl) / 0.96);
@@ -1115,7 +1111,6 @@ html.theme-light,
 	--search-popout-option-fade: none;
 	--search-popout-option-fade-hover: none;
 
-	--brand-260: var(--bg-1); /* new badge */
 	--brand-430: var(--accent-3);
 	--brand-500: var(--accent-3);
 	--brand-560: var(--accent-4);
